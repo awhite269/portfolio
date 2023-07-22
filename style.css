@@ -1,11 +1,11 @@
 :root {
-  --first-color: rgb(184, 214, 203);
-  --primary-font:'Quicksand', sans-serif;
+  --first-color: #f0ece2;
+  --primary-font: "Quicksand", sans-serif;
 }
 body {
   background-color: #ffff;
 }
-h1{
+h1 {
   font-family: var(--primary-font);
   color: black;
   font-size: 60px;
@@ -15,7 +15,8 @@ h2 {
   color: black;
   font-size: 40px;
 }
-h3,p {
+h3,
+p {
   font-family: var(--primary-font);
   font-size: 20px;
 }
@@ -29,21 +30,32 @@ a {
   margin-top: 20px;
 }
 .content {
-  width: 600px;
-  padding: 75px;
+  width: 800px;
+  padding: 195px;
   margin: auto;
   margin-top: 50px;
-  background: #f0ece2;
+  background: var(--first-color);
   border-radius: 15px;
 }
-.icon{
+.icon {
   text-align: center;
   margin-top: 40px;
 }
-@media(max-width:960px) {
-  .project-description {
-    padding:0;
-    text-align: center;
-  }
-
-
+.icon:hover {
+  pointer-events: stroke;
+}
+.btn-see-more {
+  background: var(--first-color);
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: var(--primary-font);
+}
+@media (max-width: 960px) {
+}
+.project-description {
+  padding: 0;
+  text-align: center;
+}
