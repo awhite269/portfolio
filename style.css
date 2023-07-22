@@ -53,9 +53,9 @@ a {
   padding: 15px 30px;
   font-family: var(--primary-font);
 }
-@media (max-width: 960px) {
-}
-.project-description {
+
+@media (max-width: 900px) {
+ project-description {
   padding: 0;
   text-align: center;
 }
