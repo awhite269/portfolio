@@ -1,6 +1,6 @@
 :root {
   --first-color: rgb(184, 214, 203);
-  --primary-font:'Ysabeau SC', sans-serif;
+  --primary-font:'Quicksand', sans-serif;
 }
 body {
   background-color: #ffff;
@@ -15,7 +15,7 @@ h2 {
   color: black;
   font-size: 40px;
 }
-h3 {
+h3,p {
   font-family: var(--primary-font);
   font-size: 20px;
 }
@@ -40,11 +40,10 @@ a {
   text-align: center;
   margin-top: 40px;
 }
+@media(max-width:960px) {
+  .project-description {
+    padding:0;
+    text-align: center;
+  }
 
-//.linkedin-button {
-  text-decoration: none;
-  color: black;
-  padding: 15px 15px;
-  border-radius: 4px;
-  margin-top: 40px;
-}
+
