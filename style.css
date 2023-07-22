@@ -20,6 +20,7 @@ h3 {
   font-size: 20px;
 }
 a {
+  font-size: 20px;
   color: black;
   text-decoration: none;
   font-family: var(--primary-font);
@@ -39,10 +40,7 @@ a {
   text-align: center;
   margin-top: 40px;
 }
-i:hover{
-  color:blue;
-}
-#e09664;
+
 //.linkedin-button {
   text-decoration: none;
   color: black;
