@@ -55,7 +55,12 @@ a {
 }
 
 @media (max-width: 900px) {
- project-description {
-  padding: 0;
-  text-align: center;
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .content {
+    width: 100%;
+    padding: 15px;
+  }
 }
