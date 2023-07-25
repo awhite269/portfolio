@@ -54,6 +54,34 @@ a {
   font-family: var(--primary-font);
 }
 
+.about-section h1 {
+  font-size: 64px;
+  font-family: var(--primary-font);
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--primary-font);
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.view-projects {
+  background: var(--first-color);
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: var(--primary-font);
+}
+img {
+  border-radius: 10px;
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -62,5 +90,9 @@ a {
   .content {
     width: 100%;
     padding: 15px;
+  }
+  .about-section-content {
+    text-align: center;
+    padding: 0;
   }
 }
