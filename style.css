@@ -62,11 +62,15 @@ a {
   font-size: 18px;
   font-family: var(--primary-font);
 }
-.about-section-content {
+.about-section {
   margin: 30px;
 }
-.about-section {
+.about-content {
   padding: 160px 20px;
+}
+.work-content {
+  font-family: var(--primary-font);
+  padding: 15px 30px;
 }
 .view-projects {
   background: var(--first-color);
@@ -79,7 +83,6 @@ a {
 }
 img {
   border-radius: 10px;
-  text-align: center;
 }
 
 @media (max-width: 900px) {
