@@ -9,6 +9,7 @@ h1 {
   font-family: var(--primary-font);
   color: black;
   font-size: 60px;
+  text-align: center;
 }
 h2 {
   font-family: var(--primary-font);
@@ -80,6 +81,23 @@ a {
   line-height: 27px;
   padding: 15px 30px;
   font-family: var(--primary-font);
+}
+.centerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 40px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 20px;
 }
 img {
   border-radius: 10px;
